@@ -68,7 +68,8 @@ void displayTxSymbol(bool visible);
 #endif    
 
 #if !defined(ABP_ACTIVATION) && !defined(OTAA_ACTIVATION)
-    #define OTAA_ACTIVATION
+//    #define OTAA_ACTIVATION
+    #define ABP_ACTIVATION
 #endif
 
 enum class ActivationMode {OTAA, ABP};
